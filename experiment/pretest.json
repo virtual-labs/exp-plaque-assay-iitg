@@ -2,35 +2,171 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary purpose of a plaque assay?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To identify the type of virus present",
+        "b": "To quantify the number of infectious viral particles in a sample",
+        "c": "To determine the viral genome sequence",
+        "d": "To measure viral protein concentration"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Identifying virus species is done by PCR, sequencing, or serology.",
+        "b": "Correct. Plaque assays are standard virological methods used to quantify the concentration of infectious virus particles.",
+        "c": "Incorrect. Genomic sequencing is done using NGS or Sanger sequencing.",
+        "d": "Incorrect. Viral protein concentration is measured by colorimetric assays (BCA, Bradford) or ELISA."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What does one plaque represent in a plaque assay?",
+      "answers": {
+        "a": "Multiple viruses working together",
+        "b": "A colony of bacteria",
+        "c": "Infection initiated by a single infectious viral particle",
+        "d": "Dead host cells from natural causes"
+      },
+      "explanations": {
+        "a": "Incorrect. A plaque starts from a single infectious unit.",
+        "b": "Incorrect. CFU represents a colony of bacteria.",
+        "c": "Correct. Each plaque originates from a single active virion that infects a cell, replicates, and spreads to adjacent cells.",
+        "d": "Incorrect. Plaques are clear zones of dead cells specifically caused by viral infection, not natural senescence."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which quality control measure is essential for accurate plaque assay results?",
+      "answers": {
+        "a": "Using expired reagents",
+        "b": "Performing assays in duplicate or triplicate",
+        "c": "Counting plaques immediately after inoculation",
+        "d": "Skipping the overlay step"
+      },
+      "explanations": {
+        "a": "Incorrect. Expired reagents yield unreliable results.",
+        "b": "Correct. Replicates are essential to account for pipetting and biological variations, providing a reliable average.",
+        "c": "Incorrect. Plaques take days to develop and cannot be visualised immediately.",
+        "d": "Incorrect. The overlay is required to prevent free diffusion of the virus."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which unit is used to express the results of a plaque assay?",
+      "answers": {
+        "a": "PFU/mL (Plaque Forming Units per milliliter)",
+        "b": "CFU/mL (Colony Forming Units per milliliter)",
+        "c": "mg/mL (milligrams per milliliter)",
+        "d": "MOI (Multiplicity of Infection)"
+      },
+      "explanations": {
+        "a": "Correct. Results are expressed in Plaque Forming Units per milliliter (PFU/mL).",
+        "b": "Incorrect. CFU/mL is used for bacterial colonies.",
+        "c": "Incorrect. mg/mL is for mass concentration.",
+        "d": "Incorrect. MOI represents the ratio of virus particles to host cells."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Why is serial dilution necessary before performing a plaque assay?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To increase viral concentration",
+        "b": "To obtain countable numbers of plaques",
+        "c": "To kill some viruses",
+        "d": "To change the pH of the sample"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Dilution decreases concentration.",
+        "b": "Correct. If the sample is too concentrated, the entire monolayer will be destroyed, making it impossible to resolve and count discrete plaques.",
+        "c": "Incorrect. Dilution does not kill the virus.",
+        "d": "Incorrect. Dilutions do not aim to alter pH."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What type of cells are required for a plaque assay?",
+      "answers": {
+        "a": "Bacterial cells only",
+        "b": "Red blood cells",
+        "c": "Susceptible host cells that form a monolayer",
+        "d": "Free-floating lymphocytes"
+      },
+      "explanations": {
+        "a": "Incorrect. Animal viruses require animal cells, not bacteria.",
+        "b": "Incorrect. RBCs are for hemagglutination assays.",
+        "c": "Correct. Host cells must be susceptible and grow as a confluent monolayer on the dish surface.",
+        "d": "Incorrect. Lymphocytes in suspension are not suitable for standard plaque assays."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How are plaques typically visualised in the plaque assay?",
+      "answers": {
+        "a": "As clear zones in a monolayer of cells",
+        "b": "As colored colonies on agar",
+        "c": "As fluorescent spots under UV light",
+        "d": "As bubbles in the medium"
+      },
+      "explanations": {
+        "a": "Correct. Staining dyes like crystal violet stain living cells, leaving the plaques (clear zones of dead/lysed cells) clearly visible.",
+        "b": "Incorrect. This describes bacterial colonies.",
+        "c": "Incorrect. Fluorescent spots are counted in focus forming assays using antibodies, not standard plaque assays.",
+        "d": "Incorrect. Plaques do not produce gas bubbles."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the function of the methylcellulose medium in a plaque assay?",
+      "answers": {
+        "a": "To kill the viruses",
+        "b": "To restrict viral spread to adjacent cells, creating localized infection zones",
+        "c": "To provide nutrients only",
+        "d": "To prevent cell growth"
+      },
+      "explanations": {
+        "a": "Incorrect. It is non-toxic and does not kill the virus.",
+        "b": "Correct. The viscous overlay restricts viral movement in the medium, ensuring the virus only infects adjacent cells and forms localized plaques.",
+        "c": "Incorrect. Nutrients are provided by the DMEM mixed with it.",
+        "d": "Incorrect. Cells grow under the methylcellulose layer."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which statement about plaque assays is correct?",
+      "answers": {
+        "a": "They detect both infectious and non-infectious viral particles",
+        "b": "They only detect infectious viral particles",
+        "c": "They measure viral RNA concentration",
+        "d": "They work only for bacterial viruses"
+      },
+      "explanations": {
+        "a": "Incorrect. Non-infectious particles cannot cause cell lysis and plaques.",
+        "b": "Correct. Only biologically active, infectious virus particles can complete the replication cycle and cause plaque formation.",
+        "c": "Incorrect. RNA concentration is measured by molecular assays (qPCR).",
+        "d": "Incorrect. Plaque assays are widely used for eukaryotic and prokaryotic viruses alike."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is a common staining method used to enhance plaque visualization?",
+      "answers": {
+        "a": "Gram staining",
+        "b": "Acid-fast staining",
+        "c": "Crystal violet staining",
+        "d": "India ink staining"
+      },
+      "explanations": {
+        "a": "Incorrect. Gram stain is for cell walls of bacteria.",
+        "b": "Incorrect. Acid-fast stains mycobacteria.",
+        "c": "Correct. Crystal violet is a cell-staining dye that stains the living monolayer, highlighting the clear plaques.",
+        "d": "Incorrect. India ink is a negative stain for capsules."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
