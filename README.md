@@ -1,24 +1,25 @@
 ## Introduction
 
-
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | Biosciences and Bioengineering
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | Techniques in Virology
+<b> Experiment | Plaque assay for the quantification of the virus
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+A plaque assay is based on the principle that each plaque formed represents one infectious virus particle in the sample. The plaques are the infectious units and cellular dead zones. Plaque assay is the direct quantification of infectious virus particles through counting discrete plaques in cell culture. The semi-solid overlay medium (agar or methylcellulose) restricts viral diffusion, ensuring that the virus spreads only to neighbouring cells through direct contact.
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | Elika
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | Indian Institute of Technology Guwahati
+<b> Email id | e.elika@iitg.ac.in
+<b> Department | Biosciences and Bioengineering
 
 ### Contributors List
 
-SrNo | Name | Faculty or Student | Department| Institute | Email id
+SrNo | Name | Faculty or Student | Department | Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+1 | Prof. Sachin Kumar | Faculty | Biosciences and Bioengineering | Indian Institute of Technology Guwahati | sachinku@iitg.ac.in
+2 | Elika | Student | Biosciences and Bioengineering | Indian Institute of Technology Guwahati | e.elika@iitg.ac.in
+3 | Anchal | Student | Biosciences and Bioengineering | Indian Institute of Technology Guwahati | n.anchal@iitg.ac.in
+4 | Lakshya Choudhary | Student | Department of Design | Indian Institute of Technology Guwahati | c.lakshya@iitg.ac.in
