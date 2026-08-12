@@ -3,51 +3,51 @@ document.addEventListener('DOMContentLoaded', () => {
     const steps = [
         {
             src: './images/Step1.mp4',
-            caption: 'Step 1: Host cells are seeded in a multi-well tissue culture plate and incubated until they form a confluent monolayer.'
+            caption: 'Step 1: Host cells are washed with PBS and trypsinised'
         },
         {
             src: './images/Step2.mp4',
-            caption: 'Step 2: Prepare serial ten-fold dilutions of the viral stock suspension to ensure countable plaque counts.'
+            caption: 'Step 2: Cells are seeded in a 6-well plate and incubated overnight'
         },
         {
             src: './images/Step3.mp4',
-            caption: 'Step 3: Carefully aspirate and remove the liquid growth medium from the wells containing confluent host cells.'
+            caption: 'Step 3: 450 μl of plain DMEM to the centrifuge tubes labelled 10-1, 10-2, 10-3, 10-4.'
         },
         {
             src: './images/Step4.mp4',
-            caption: 'Step 4: Inoculate the cell monolayers by adding a measured volume of each viral dilution to the respective wells.'
+            caption: 'Step 4: Add virus to the first tube and serially dilute the viral supernatant'
         },
         {
             src: './images/Step5.mp4',
-            caption: 'Step 5: Incubate the plate for 1 hour at 37 °C, rocking it periodically to allow viral adsorption and prevent cell drying.'
+            caption: 'Step 5: Wash the cells seeded in the 6-well plate with PBS'
         },
         {
             src: './images/Step6.mp4',
-            caption: 'Step 6: Remove the viral inoculum from each well to clear away any unadsorbed free viral particles.'
+            caption: 'Step 6: Add each viral dilution to the respective wells and incubate the plate for 1 hour at 37 °C, rocking it periodically to allow viral adsorption and prevent cell drying.'
         },
         {
             src: './images/Step7.mp4',
-            caption: 'Step 7: Prepare the semi-solid overlay medium (commonly agarose or methylcellulose mixed with nutrient medium).'
+            caption: 'Step 7: Discard the media and wash cells with PBS'
         },
         {
             src: './images/Step8.mp4',
-            caption: 'Step 8: Apply the warm semi-solid overlay medium to each well to restrict viral spread to neighboring cells.'
+            caption: 'Step 8: Add methylcellulose DMEM to each well and incubate for 72 hours'
         },
         {
             src: './images/Step9.mp4',
-            caption: 'Step 9: Incubate the plate at 37 °C for 2–3 days to allow local viral replication cycles and plaque development.'
+            caption: 'Step 9: Use methanol to fix cells.'
         },
         {
             src: './images/Step10.mp4',
-            caption: 'Step 10: Fix the host cell monolayer by adding a fixative solution (e.g., formaldehyde or glutaraldehyde) to the wells.'
+            caption: 'Step 10: Remove the methanol and add 1 % crystal violet, and slow shake for 15 mins'
         },
         {
             src: './images/Step11.mp4',
-            caption: 'Step 11: Stain the fixed cells using crystal violet dye, which stains living host cells purple while leaving plaques clear.'
+            caption: 'Step 11: Remove the crystal violet and wash the wells with water'
         },
         {
             src: './images/Step12.mp4',
-            caption: 'Step 12: Gently wash off the excess dye, visualize the plates, and count the clear plaques to calculate viral titer in PFU/mL.'
+            caption: 'Step 12: Observe the plaques under a microscope, visualise the plates and count the clear plaques to calculate viral titer in PFU/mL.'
         }
     ];
 
