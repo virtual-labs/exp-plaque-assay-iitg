@@ -1,0 +1,175 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "If you count 50 plaques from a plate inoculated with 0.1 mL of a 10⁻⁶ dilution, what is the viral titer?",
+      "answers": {
+        "a": "5 × 10⁷ PFU/mL",
+        "b": "5 × 10⁸ PFU/mL",
+        "c": "5 × 10⁶ PFU/mL",
+        "d": "5 × 10⁵ PFU/mL"
+      },
+      "explanations": {
+        "a": "Incorrect.",
+        "b": "Correct. Titer = (Plaques) / (Dilution × Volume) = 50 / (10^-6 × 0.1 mL) = 5 × 10^8 PFU/mL.",
+        "c": "Incorrect.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is NOT an advantage of the plaque assay?",
+      "answers": {
+        "a": "It measures only infectious particles",
+        "b": "It provides rapid results within minutes",
+        "c": "It can be used for virus purification",
+        "d": "It is considered the gold standard for virus quantification"
+      },
+      "explanations": {
+        "a": "Incorrect. This is a primary benefit.",
+        "b": "Correct. Plaque assays are slow and require incubation periods ranging from 2 to 10 days.",
+        "c": "Incorrect. Plaques can be picked to isolate clonal viral lineages.",
+        "d": "Incorrect. It is the widely accepted gold standard."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What happens during the incubation period of a plaque assay?",
+      "answers": {
+        "a": "Viruses are killed by antibiotics",
+        "b": "Infected cells lyse and release progeny viruses that infect neighboring cells",
+        "c": "Cells multiply without viral infection",
+        "d": "The overlay solidifies only"
+      },
+      "explanations": {
+        "a": "Incorrect. Antibiotics target bacteria, not viruses.",
+        "b": "Correct. During incubation, the virus replicates inside host cells, lyses them, and spreads locally to neighboring cells, creating plaques.",
+        "c": "Incorrect. Viral infection spreads and cells lyse.",
+        "d": "Incorrect. The overlay is solid before incubation."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why must the cell monolayer be confluent before adding virus?",
+      "answers": {
+        "a": "To prevent bacterial contamination",
+        "b": "To ensure plaques form as distinct clear zones",
+        "c": "To speed up viral replication",
+        "d": "To reduce the cost of the assay"
+      },
+      "explanations": {
+        "a": "Incorrect. Confluence does not prevent contamination.",
+        "b": "Correct. A confluent cell layer ensures that plaques can be visualised as clear, open spaces against a continuous sheet of cells.",
+        "c": "Incorrect. Cell confluence does not affect intracellular viral replication speed.",
+        "d": "Incorrect. Cost is unaffected by confluency."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the typical incubation time for a plaque assay?",
+      "answers": {
+        "a": "30 minutes to 2 hours",
+        "b": "2-10 days, depending on the virus",
+        "c": "24 hours for all viruses",
+        "d": "1 week exactly"
+      },
+      "explanations": {
+        "a": "Incorrect. 30 mins to 2 hours is the initial adsorption time, not the plaque development time.",
+        "b": "Correct. Incubation requires 2 to 10 days depending on the viral replication speed.",
+        "c": "Incorrect. Most viruses take longer than 24 hours to form countable plaques.",
+        "d": "Incorrect. While some take 7 days, it varies by virus species."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which factor does NOT affect plaque morphology?",
+      "answers": {
+        "a": "Viral strain characteristics",
+        "b": "Host cell type",
+        "c": "The color of the incubator",
+        "d": "Overlay medium"
+      },
+      "explanations": {
+        "a": "Incorrect. Viral strain determines replication rate and plaque size.",
+        "b": "Incorrect. Different cell lines support different replication speeds.",
+        "c": "Correct. The external or internal color of the incubator has no impact on viral biology.",
+        "d": "Incorrect. Overlay viscosity directly affects viral spread and plaque size."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the main disadvantage of the plaque assay compared to molecular methods?",
+      "answers": {
+        "a": "It is too accurate",
+        "b": "It is time-consuming and labor-intensive",
+        "c": "It costs too little",
+        "d": "It detects non-infectious particles"
+      },
+      "explanations": {
+        "a": "Incorrect.",
+        "b": "Correct. It requires days to get results, specialized cell culture techniques, and manual counting, unlike rapid PCR assays.",
+        "c": "Incorrect.",
+        "d": "Incorrect. Plaque assays only detect infectious particles."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In a plaque assay, what dilution range typically results in countable plaques?",
+      "answers": {
+        "a": "1-5 plaques per plate",
+        "b": "30-300 plaques per plate",
+        "c": "500-1000 plaques per plate",
+        "d": "More than 1000 plaques per plate"
+      },
+      "explanations": {
+        "a": "Incorrect. Too few plaques is statistically unreliable.",
+        "b": "Correct. 30 to 300 plaques is the standard countable range for most standard culture plates.",
+        "c": "Incorrect. 500-1000 leads to overlap (overlapping plaques), making counting impossible.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What modification can be used for viruses that don't cause visible cytopathic effects?",
+      "answers": {
+        "a": "Increasing temperature to 100°C",
+        "b": "Immunostaining or focus-forming assays",
+        "c": "Adding antibiotics",
+        "d": "Using bacterial cells instead"
+      },
+      "explanations": {
+        "a": "Incorrect. High heat kills the host cells.",
+        "b": "Correct. Focus-forming assays use antibodies against viral proteins to detect infected clusters before cells actually lyse.",
+        "c": "Incorrect. Antibiotics do not help detect viral replication.",
+        "d": "Incorrect. Eukaryotic viruses require eukaryotic cell systems."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which quality control measure is essential for accurate plaque assay results?",
+      "answers": {
+        "a": "Using expired reagents",
+        "b": "Performing assays in duplicate or triplicate",
+        "c": "Counting plaques immediately after inoculation",
+        "d": "Skipping the overlay step"
+      },
+      "explanations": {
+        "a": "Incorrect. Expired reagents yield unreliable results.",
+        "b": "Correct. Replicates are essential to account for pipetting and biological variations, providing a reliable average.",
+        "c": "Incorrect. Plaques take days to develop and cannot be visualised immediately.",
+        "d": "Incorrect. The overlay is required to prevent free diffusion of the virus."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
